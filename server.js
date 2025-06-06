@@ -3,8 +3,8 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const AIRTABLE_TOKEN = process.env.patWwP5X4VYJtb4u1.201efdd995733b4565b560dd57646109402c4af7c1b973bcc139d0467ded94ca;
-const AIRTABLE_BASE_ID = process.env.appXbC6Jkva8sAKw7;
+const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN;
+const AIRTABLE_BASE_ID = process.env.AIRTABLE_BASE_ID;
 
 app.use(express.json());
 
